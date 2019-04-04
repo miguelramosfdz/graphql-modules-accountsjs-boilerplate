@@ -2,12 +2,13 @@
 # yarn lockfile v1
 
 
-"@accounts/database-manager@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.9.2.tgz#0f76bbb78ae9f17a28f766180a9a8f0548b93b31"
-  integrity sha512-6G6V3hv9pRzg8cSw4wP5GG4bwTm3ihg/H96avkGddrZqAMnvJSGeXv5EePagHNQhrwJ3sWgvD24/1fnls8u20w==
+"@accounts/database-manager@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/database-manager/-/database-manager-0.14.0.tgz#66e842d82afe57b55594ee445c39c0aaaae13029"
+  integrity sha512-vj2l9RT8EAU3lfNYwB17FVv60pt2FCP2cfwT+ez9qI6d/9jevjiHe33ZriwOYl6FLt6XGdOOWq6u4BiiwAzC5w==
   dependencies:
-    "@accounts/types" "^0.9.2"
+    "@accounts/types" "^0.14.0"
+    tslib "1.9.3"
 
 "@accounts/graphql-api@0.9.0":
   version "0.9.0"
@@ -93,6 +94,13 @@
     "@types/speakeasy" "2.0.2"
     lodash "^4.17.11"
     speakeasy "^2.0.0"
+
+"@accounts/types@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.14.0.tgz#d7f60ae8dc0cbc65024e6cb3f58011ec84889cff"
+  integrity sha512-lhJw8aMwqFhF9AkP6hj2PolTYFrknpaos+3Pf28ITB78x6KEdxJ9wWTK4J8fxSt5fBRxd+vduQWzBuWPe6JG0g==
+  dependencies:
+    tslib "1.9.3"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
