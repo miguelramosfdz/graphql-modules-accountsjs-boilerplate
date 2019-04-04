@@ -30,14 +30,15 @@
     lodash "^4.17.11"
     mongodb "^3.1.10"
 
-"@accounts/password@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.9.2.tgz#59799af4523957b222699318002333ca18be7f95"
-  integrity sha512-YbALL9B+gDNY7mt60LuRegdN366LcNuejZojcV+798LNHmcVrOMqSbBiOzreoji1pyHm5pRPCUlxWyLK7LIgGw==
+"@accounts/password@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.14.0.tgz#931eb2d06b3261514a5d69c45ed585bf08052655"
+  integrity sha512-gMtVeRd9qqY4G9MOBxHMuC2ADHY7QYVaT1gq1NjOPidN9K1OSLdB7Uq5Ou9ISpHL4YwtljFDWF1wajTFGMq5cw==
   dependencies:
-    "@accounts/two-factor" "^0.9.2"
+    "@accounts/two-factor" "^0.14.0"
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
+    tslib "1.9.3"
 
 "@accounts/password@^0.9.0":
   version "0.9.0"
@@ -72,6 +73,18 @@
     jwt-decode "2.2.0"
     lodash "4.17.11"
 
+"@accounts/two-factor@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.14.0.tgz#46bd3b03e00450185a19d85d523e8782ce57e928"
+  integrity sha512-JQiYjDHWwP3nj0kbPUlRayym/8unhDIvhTp9jsVZa+Zo7zpSJob0Pk98O0VZmz7lW13u++B1a1i+SqHbIHRGjg==
+  dependencies:
+    "@accounts/types" "^0.14.0"
+    "@types/lodash" "^4.14.119"
+    "@types/speakeasy" "2.0.2"
+    lodash "^4.17.11"
+    speakeasy "^2.0.0"
+    tslib "1.9.3"
+
 "@accounts/two-factor@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.0.tgz#de874dd3546b40b4d5ca71be946a7683de7f56ec"
@@ -83,16 +96,12 @@
     lodash "^4.17.11"
     speakeasy "^2.0.0"
 
-"@accounts/two-factor@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.2.tgz#b441e30583ef52017b198ab6fe93d98ac6936195"
-  integrity sha512-AbtAoVtGsgK4HqooJrxvjZvy3LZNsZqRtSVASq+caK/po5BGbAyDmMmiOSk0R0vBQMILlTu2SgnH+OG5Q+0qfg==
+"@accounts/types@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.14.0.tgz#d7f60ae8dc0cbc65024e6cb3f58011ec84889cff"
+  integrity sha512-lhJw8aMwqFhF9AkP6hj2PolTYFrknpaos+3Pf28ITB78x6KEdxJ9wWTK4J8fxSt5fBRxd+vduQWzBuWPe6JG0g==
   dependencies:
-    "@accounts/types" "^0.9.2"
-    "@types/lodash" "^4.14.119"
-    "@types/speakeasy" "2.0.2"
-    lodash "^4.17.11"
-    speakeasy "^2.0.0"
+    tslib "1.9.3"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
