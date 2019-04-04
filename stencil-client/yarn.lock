@@ -2,14 +2,24 @@
 # yarn lockfile v1
 
 
-"@accounts/client-password@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/client-password/-/client-password-0.9.0.tgz#1c5c62d439504ca7c871476d6d4471ee1ec169ae"
-  integrity sha512-UAJCQEj2C8McIQEAeys7uQMYzN6JAwMl0/1QXEomY8nZWuWYQwQ3oxsDj1oHhzwbbiPoEID6ckOeeRJG+v95/g==
+"@accounts/client-password@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client-password/-/client-password-0.14.0.tgz#350d07f4e9bf124ef06bcdaabc3bd94dfd3cc93a"
+  integrity sha512-WbyA5COFZvYzXMPgxXapIlHx2hm2tiWYYdTFcZk2w7qAFmoyRo/xYrR3suYIkdqa+9EPZJerxodC08xtMhj/QA==
   dependencies:
-    "@accounts/client" "^0.9.0"
-    "@accounts/types" "^0.9.0"
+    "@accounts/client" "^0.14.0"
+    "@accounts/types" "^0.14.0"
     crypto-js "^3.1.9-1"
+    tslib "1.9.3"
+
+"@accounts/client@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/client/-/client-0.14.0.tgz#96de4c9c1055f816e3116858ef068bfdf519e9bb"
+  integrity sha512-RhhfBhzm0+RzbhzCsBVNzQJWONsQHwDemPh80OsBrLqkMZaFyZM7FnedlA/gGG6QHYJw4lO2VT1/NugRLqI4Yw==
+  dependencies:
+    "@accounts/types" "^0.14.0"
+    jwt-decode "2.2.0"
+    tslib "1.9.3"
 
 "@accounts/client@^0.9.0":
   version "0.9.0"
@@ -27,6 +37,13 @@
     "@accounts/client" "^0.9.0"
     "@accounts/types" "^0.9.0"
     graphql-tag "^2.10.0"
+
+"@accounts/types@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/types/-/types-0.14.0.tgz#d7f60ae8dc0cbc65024e6cb3f58011ec84889cff"
+  integrity sha512-lhJw8aMwqFhF9AkP6hj2PolTYFrknpaos+3Pf28ITB78x6KEdxJ9wWTK4J8fxSt5fBRxd+vduQWzBuWPe6JG0g==
+  dependencies:
+    tslib "1.9.3"
 
 "@accounts/types@^0.9.0":
   version "0.9.0"
