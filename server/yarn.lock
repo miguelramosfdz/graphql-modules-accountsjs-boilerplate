@@ -9,17 +9,14 @@
   dependencies:
     "@accounts/types" "^0.9.2"
 
-"@accounts/graphql-api@0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.9.0.tgz#971f464e00a6d773695e2c718469d9cc50422304"
-  integrity sha512-or3L16KNiGbcvrI8Gt6ByDIlQauN2VOo+C52D0cTKXjcUYI7THXhZsoRiA0pjldVG+Ib2ltXGsHzuY0XjivheA==
+"@accounts/graphql-api@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@accounts/graphql-api/-/graphql-api-0.14.0.tgz#66d910ab9544b42bdff0d2f416a16e9b509dbd1c"
+  integrity sha512-GPz94k8Qyr9tUQ6v1MIFhox+gYvv1FYmxpEm0/vw2TTQQKJtPADa7MMGzH11ghAHI++XctR5LTbMBTXgrzxx0Q==
   dependencies:
-    "@accounts/password" "^0.9.0"
-    "@accounts/server" "^0.9.0"
-    "@accounts/types" "^0.9.0"
-    "@types/request-ip" "0.0.33"
-    graphql-tag "^2.10.0"
+    graphql-toolkit "^0.0.5"
     request-ip "2.1.3"
+    tslib "1.9.3"
 
 "@accounts/mongo@0.9.0":
   version "0.9.0"
@@ -39,15 +36,6 @@
     bcryptjs "^2.4.3"
     lodash "^4.17.11"
 
-"@accounts/password@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/password/-/password-0.9.0.tgz#222969568c82e17187c8e2f48764bf553338220f"
-  integrity sha512-zypXK6gP/LvR/ah45GgVOtnc6uhCNYT7RoU8UrdOOZsjg61dcrk7T9W0PFI4UAyYWPMhAU3XcWVjstbvboZFRg==
-  dependencies:
-    "@accounts/two-factor" "^0.9.0"
-    bcryptjs "^2.4.3"
-    lodash "^4.17.11"
-
 "@accounts/server@0.9.2":
   version "0.9.2"
   resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.9.2.tgz#18acc299890d9e569c87ab22ad41f4686661b474"
@@ -59,29 +47,6 @@
     jsonwebtoken "8.4.0"
     jwt-decode "2.2.0"
     lodash "4.17.11"
-
-"@accounts/server@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/server/-/server-0.9.0.tgz#761212d202284ac310c982c5ed3075352332aa9c"
-  integrity sha512-0gC/xyph23+NA/fYz99QYJJ4U6xflk3TZkinbVwwA9a8s84P94/YQRATHSlIfF0TU5oHoX1gyLHTFb3nDwopVw==
-  dependencies:
-    "@accounts/types" "^0.9.0"
-    "@types/jsonwebtoken" "8.3.0"
-    emittery "0.4.1"
-    jsonwebtoken "8.4.0"
-    jwt-decode "2.2.0"
-    lodash "4.17.11"
-
-"@accounts/two-factor@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@accounts/two-factor/-/two-factor-0.9.0.tgz#de874dd3546b40b4d5ca71be946a7683de7f56ec"
-  integrity sha512-z1N16yxD63hWfJlA+qffAF1sa5Vl5vvLLHZOK6ye4J8NpvYmk0149h7V2dGd3OJW456wdn+QSZiNQNeaRazrMQ==
-  dependencies:
-    "@accounts/types" "^0.9.0"
-    "@types/lodash" "^4.14.118"
-    "@types/speakeasy" "2.0.2"
-    lodash "^4.17.11"
-    speakeasy "^2.0.0"
 
 "@accounts/two-factor@^0.9.2":
   version "0.9.2"
@@ -403,11 +368,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/lodash@^4.14.118":
-  version "4.14.119"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.119.tgz#be847e5f4bc3e35e46d041c394ead8b603ad8b39"
-  integrity sha512-Z3TNyBL8Vd/M9D9Ms2S3LmFq2sSMzahodD6rCS9V2N44HUMINb75jNkSuwAx7eo2ufqTdfOdtGQpNbieUjPQmw==
-
 "@types/lodash@^4.14.119":
   version "4.14.120"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.120.tgz#cf265d06f6c7a710db087ed07523ab8c1a24047b"
@@ -450,13 +410,6 @@
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
-
-"@types/request-ip@0.0.33":
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/@types/request-ip/-/request-ip-0.0.33.tgz#4c4a16f8b27a4ed906470fdac64168bc4de6c295"
-  integrity sha512-Lpj7d5ykuvAWzQtqhStxehkVDpgtlof4OzL6d5I2tL+qHP4jYJzgfNQJmjOH373QBpCUd7o9ZjrTE+y4nQOS5A==
-  dependencies:
-    "@types/node" "*"
 
 "@types/serve-static@*":
   version "1.13.2"
@@ -1393,6 +1346,11 @@ deepmerge@2.2.1, deepmerge@^2.0.1:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
   integrity sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==
 
+deepmerge@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.1.0.tgz#a612626ce4803da410d77554bfd80361599c034d"
+  integrity sha512-/TnecbwXEdycfbsM2++O3eGiatEFHjjNciHEwJclM+T5Kd94qD1AP+2elP/Mq0L5b9VZJao5znR01Mz6eX8Seg==
+
 define-properties@^1.1.2:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
@@ -2154,7 +2112,18 @@ graphql-tag-pluck@0.3.3:
     "@babel/traverse" "^7.1.6"
     "@babel/types" "^7.2.0"
 
-graphql-tag@2.10.0, graphql-tag@^2.10.0, graphql-tag@^2.9.2:
+graphql-tag-pluck@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/graphql-tag-pluck/-/graphql-tag-pluck-0.5.0.tgz#81f5dee3a6ca829f205ab032336be7b107398b2e"
+  integrity sha512-SlsIpXKbrKIV2+QxYZ7bFPQ0DpIXFd0BEz3U+Krt8tuHYMFtElcctNDppW4EeQTrSX9H5zpStBZyfOYQjQOH1w==
+  dependencies:
+    "@babel/parser" "^7.2.0"
+    "@babel/traverse" "^7.1.6"
+    "@babel/types" "^7.2.0"
+    source-map-support "^0.5.9"
+    typescript "^3.2.2"
+
+graphql-tag@2.10.0, graphql-tag@^2.9.2:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.0.tgz#87da024be863e357551b2b8700e496ee2d4353ae"
   integrity sha512-9FD6cw976TLLf9WYIUPCaaTpniawIjHWZSwIRZSjrfufJamcXbVVYfN2TWvJYbw0Xf2JjYbl1/f2+wDnBVw3/w==
@@ -2163,6 +2132,21 @@ graphql-tag@2.10.1:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.1.tgz#10aa41f1cd8fae5373eaf11f1f67260a3cad5e02"
   integrity sha512-jApXqWBzNXQ8jYa/HLkZJaVw9jgwNqZkywa2zfFn16Iv1Zb7ELNHkJaXHR7Quvd5SIGsy6Ny7SUKATgnu05uEg==
+
+graphql-toolkit@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/graphql-toolkit/-/graphql-toolkit-0.0.5.tgz#9e6ebe3d4b33fc329e5ee3b7775bfe7fba2f48a5"
+  integrity sha512-655RP1y8cn65mOa9EE/jnttczHE0lFXpOV1zYLTsE1A0b5j8RVuKWllSZBnnL2WHSAPPqLZ1oJEZV2uzSdV9VQ==
+  dependencies:
+    deepmerge "3.1.0"
+    glob "7.1.3"
+    graphql-import "0.7.1"
+    graphql-tag-pluck "0.5.0"
+    is-glob "4.0.0"
+    is-valid-path "0.1.1"
+    lodash "4.17.11"
+    request "2.88.0"
+    valid-url "1.0.9"
 
 graphql-tools@4.0.3, graphql-tools@^4.0.0:
   version "4.0.3"
@@ -4124,6 +4108,14 @@ source-map-support@^0.5.6:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
+source-map-support@^0.5.9:
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.11.tgz#efac2ce0800355d026326a0ca23e162aeac9a4e2"
+  integrity sha512-//sajEx/fGL3iw6fltKMdPvy8kL3kJ2O3iuYlRoT3k9Kb4BjOoZ+BZzaNHeuaruSt+Kf3Zk9tnfAQg9/AJqUVQ==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
 source-map-url@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/source-map-url/-/source-map-url-0.4.0.tgz#3e935d7ddd73631b97659956d55128e87b5084a3"
@@ -4521,6 +4513,11 @@ typescript@3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.4.tgz#c585cb952912263d915b462726ce244ba510ef3d"
   integrity sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
+
+typescript@^3.2.2:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.1.tgz#b6691be11a881ffa9a05765a205cb7383f3b63c6"
+  integrity sha512-3NSMb2VzDQm8oBTLH6Nj55VVtUEpe/rgkIzMir0qVoLyjDZlnMBva0U6vDiV3IH+sl/Yu6oP5QwsAQtHPmDd2Q==
 
 undefsafe@^2.0.2:
   version "2.0.2"
